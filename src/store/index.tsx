@@ -74,7 +74,7 @@ class GlobalStore {
         const jsonObj = await response.json()
         return jsonObj
       }
-      throw new Error(`Status code: ${response.ok}\n`)
+      throw new Error(`Status code: ${response.status}\n`)
     } catch (err) {
       throw err
     }
