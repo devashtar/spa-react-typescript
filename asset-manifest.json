@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/spa-react-typescript/static/css/main.c77841ca.css",
+    "main.js": "/spa-react-typescript/static/js/main.ed3f32bd.js",
+    "static/js/787.cf753860.chunk.js": "/spa-react-typescript/static/js/787.cf753860.chunk.js",
+    "index.html": "/spa-react-typescript/index.html",
+    "main.c77841ca.css.map": "/spa-react-typescript/static/css/main.c77841ca.css.map",
+    "main.ed3f32bd.js.map": "/spa-react-typescript/static/js/main.ed3f32bd.js.map",
+    "787.cf753860.chunk.js.map": "/spa-react-typescript/static/js/787.cf753860.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c77841ca.css",
+    "static/js/main.ed3f32bd.js"
+  ]
+}
