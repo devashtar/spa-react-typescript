@@ -1,5 +1,18 @@
+:root {
+  --primary-color: #384758;
+  --secondary-color: #fe8700;
+  --light-gray: #606F81;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +23,14 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+html {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  html {
+    font-size: calc( (100vw - 320px) / (1024 - 320) * (16 - 13) + 13px);
+  }
 }
